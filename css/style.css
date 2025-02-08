@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+  }
+  
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:20px;
+    margin:0;
+    background-color: #fff;
+}
+
+header{
+   padding: 2em 2em 1em 2em;
+}
+
+h1{
+font-size: 3.5em;
+
+}
+
+h3{
+   letter-spacing: .18em; 
+}
+
+.mentalhealth{
+    background: url(../images/bg2.png) no-repeat fixed center center;
+    background-size:cover;
+    color:#110273;
+}
+
+.environment{
+    background: url(../images/bg3.png) no-repeat fixed center center;
+    background-size:cover;  
+}
+
+.lgbtq{
+    background: url(../images/bg1.png) no-repeat fixed center center;
+    background-size:cover;  
+}
+
+.fashion{
+    background: url(../images/bg4.png) no-repeat fixed center center;
+    background-size:cover;  
+}
+
+nav{
+    background-color: #F2B705;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  
+}
+
+img{
+    max-width: 600px;
+    width: 75%;
+    padding: 1em;
+    margin: 0 1em 4em 1em;
+    /*background-color: #F2F2F2;*/
+}
+
+.icon{
+    max-width: 30px;
+    width: 100%;
+    padding:0;
+    margin:0;
+    background-color:transparent;
+}
+
+a:link{
+    color: #F2F2F2;
+    background-color: #F2B705;
+    text-decoration: none;
+    padding:.5em .6em .5em .3em;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a:visited{
+    color: #F2F2F2;
+    
+}
+
+a:hover{
+    background-color: #110273;
+    color:#F2B705
+}
+
+a:active{
+    background-color: #fee18b;
+    color: #110273;
+}
+
+
+
+article{
+    color:#110273;
+    width: 75%;
+    padding: 2em 4em;
+    /*background-color: #F2F2F2;*/
+    margin: 1.5em 5em;
+    text-align: left;
+    text-transform: lowercase;
+    border:1px #110273;
+}
+
+p{
+
+
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+
+footer{
+    background-color: #F2B705;
+    color:#F2F2F2;
+    padding: .3em;
+    font-size: .8em;
+}
