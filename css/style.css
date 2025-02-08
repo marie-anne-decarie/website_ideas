@@ -11,6 +11,22 @@ body{
     background-color: #fff;
 }
 
+.mentalhealthbody{
+    background-color: #f2f2f2;
+}
+
+.environmentbody{
+    background-color: #e4f2ed;
+}
+
+.lgbtqbody{
+    background-color:#ffd4ed;
+}
+
+.fashionbody{
+    background-color: #f0e5c2;
+}
+
 header{
    padding: 2em 2em 1em 2em;
 }
@@ -18,6 +34,10 @@ header{
 h1{
 font-size: 3.5em;
 
+}
+
+h1::after{
+    content:".";
 }
 
 h3{
@@ -32,17 +52,20 @@ h3{
 
 .environment{
     background: url(../images/bg3.png) no-repeat fixed center center;
-    background-size:cover;  
+    background-size:cover;
+    color:#0c024b;  
 }
 
 .lgbtq{
     background: url(../images/bg1.png) no-repeat fixed center center;
     background-size:cover;  
+    color:#110273;
 }
 
 .fashion{
     background: url(../images/bg4.png) no-repeat fixed center center;
-    background-size:cover;  
+    background-size:cover;
+    color:#110273;  
 }
 
 nav{
@@ -58,7 +81,7 @@ img{
     width: 75%;
     padding: 1em;
     margin: 0 1em 4em 1em;
-    /*background-color: #F2F2F2;*/
+    background-color: #fff;
 }
 
 .icon{
@@ -99,11 +122,9 @@ a:active{
 
 article{
     color:#110273;
-    width: 75%;
-    padding: 2em 4em;
-    /*background-color: #F2F2F2;*/
-    margin: 1.5em 5em;
-    text-align: left;
+    background-color: #fff;
+    padding: 2em 6em;
+    margin: 3em 6em;
     text-transform: lowercase;
     border:1px #110273;
 }
